@@ -1,3 +1,9 @@
 <h1>Hello, Rail!</h1>
-<h2>Getting funny</h2>
-<h3>We'll see about that c;</h3>
+
+<<ul>
+    <% @articles.each do |article| %>
+        <li>
+            <% article.title %>
+        </li>
+    <% end %>
+</ul>
