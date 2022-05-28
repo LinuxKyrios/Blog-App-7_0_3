@@ -1,9 +1,9 @@
-<h1>Hello, Rail!</h1>
+<h1>Hello, Rails!</h1>
 
-<<ul>
+<ul>
     <% @articles.each do |article| %>
         <li>
-            <% article.title %>
+            <%= article.title %>
         </li>
     <% end %>
 </ul>
