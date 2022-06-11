@@ -5,9 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 3.0.2
 
-* System dependencies
+* System dependencies: check Gemfile
 
 * Configuration
 
